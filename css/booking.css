@@ -1,0 +1,78 @@
+body{
+    padding-top: 70px;
+}
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: 'Poppins',sans-serif!important;
+    background-color: #FAFAD2;
+}
+
+.navbar-nav li{
+    padding-left: .7rem;
+  }
+  
+  .navbar-light .navbar-nav .nav-link{
+    padding-top: .8rem;
+  }
+  .navbar-light .navbar-nav .active>.nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show>.nav-link {
+    color: #ff0000!important;
+    font-weight: 600;
+  }
+  .navbar-brand
+  {
+    text-transform: uppercase;
+    color: #ff0000!important;
+    font-weight: 700;
+    font-size: 1em;
+  }
+  .navbar-brand span{
+    color: #ff0000!important;
+  }
+  i
+  {
+    padding-right: 10px;
+  }
+
+  h3.heading{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 1.9rem;
+  }
+  
+  .heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: #ff0157;
+    margin: 0 auto 2rem;
+  }
+  .jumbotron-container{
+    margin-bottom: 0;
+    padding-bottom: 2px!important;
+  }
+
+section{
+    padding: 100px;
+}
+.jumbotron-fluid{
+    width:100%;
+    height: 100%;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+    display: flex;
+  }
+  
+  .jumbotron-fluid{
+    max-width: 100%;
+    height: 70vh;
+    width: 100%;
+    background-size: cover!important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
